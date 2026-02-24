@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import AboutSection from "./AboutSection";   // 👈 YEH ADD KARO
 import ServicesSection from "./ServicesSection";
-
+import TestimonialsSection from "./TestimonialsSection";
 
 
 
