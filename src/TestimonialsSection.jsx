@@ -1,7 +1,7 @@
 import React from "react";
 import "./TestimonialsSection.css";
 
-const testimonialsData = [
+const TestimonialsSection = [
   {
     name: "Oliver Smith",
     role: "CEO, TechWave UK",
@@ -40,9 +40,10 @@ const testimonialsData = [
   },
 ];
 
-const TestimonialsSection = () => {
+function Testimonials() {
   return (
-    <section className="testimonial-section">
+    <section 
+    className="testimonial-section">
       <div className="container">
         
         <h2 className="testimonial-title">
@@ -54,7 +55,7 @@ const TestimonialsSection = () => {
         </p>
 
         <div className="testimonial-grid">
-          {testimonialsData.map((item, index) => (
+          {TestimonialsSection.map((item, index) => (
             <div className="testimonial-card" key={index}>
               
               <p className="testimonial-text">"{item.text}"</p>
@@ -75,4 +76,4 @@ const TestimonialsSection = () => {
     </section>
   );
 }
-export default TestimonialsSection;
+export default Testimonials;
