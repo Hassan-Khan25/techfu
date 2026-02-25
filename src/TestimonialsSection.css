@@ -1,8 +1,8 @@
 /* Section */
 .testimonial-section {
-  background: #000;
+  background: #fff;
   padding: 80px 20px;
-  color: white;
+  color: #0B2A4A;
 }
 
 /* Container */
@@ -23,6 +23,7 @@
   color: #0B2A4A;
   background: linear-gradient(90deg, #0B2A4A, #8A96A3);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -41,7 +42,7 @@
 
 /* Card */
 .testimonial-card {
-  background: #050505;
+  background: #fff;
   border: 1px solid #0B2A4A;
   border-radius: 12px;
   padding: 25px;
@@ -60,7 +61,7 @@
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 20px;
-  color: #ddd;
+  color: black;
 }
 
 /* User */
@@ -83,5 +84,5 @@
 
 .testimonial-user span {
   font-size: 14px;
-  color: #8A96A3;
+  color: #0B2A4A;
 }

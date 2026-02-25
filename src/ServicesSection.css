@@ -1,35 +1,31 @@
-/* Section */
 .services-section {
   padding: 80px 10%;
-  background: #8A96A3; /* Secondary Color as Background */
+  background: #fff;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
 /* Header */
 .small-title {
-  /* Using Primary Color for the small title so it pops against the gray */
-  color: #0B2A4A; 
+  color: #8A96A3;
   letter-spacing: 3px;
   font-size: 14px;
   margin-bottom: 10px;
-  font-weight: bold;
 }
 
 .services-header h2 {
   font-size: 36px;
-  color: #0B2A4A; /* Primary Color */
+  color: #0B2A4A;
 }
 
 .services-header h2 span {
-  /* White or a very light tint provides the best contrast on #8A96A3 */
-  color: #ffffff; 
+  color: #0B2A4A;
 }
 
 .underline {
   width: 80px;
   height: 3px;
-  background-color: #0B2A4A; /* Primary Color */
+  background-color: #0B2A4A;
   margin: 15px auto 50px;
 }
 
@@ -42,52 +38,74 @@
 }
 
 .service-card {
-  /* White cards look best on a gray background to create "depth" */
-  background: #ffffff; 
-  border: 1px solid rgba(11, 42, 74, 0.2);
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
   width: 320px;
   padding: 25px;
   border-radius: 20px;
   transition: 0.3s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .service-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 30px rgba(11, 42, 74, 0.2);
+}
+
+.service-card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
 }
 
 .service-card h3 {
-  color: #0B2A4A; /* Primary Color */
+  color: #0B2A4A;
   margin-bottom: 10px;
 }
 
 .service-card p {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #555555; /* Darker gray for readability on white cards */
+  color: #8A96A3;
 }
 
-/* Buttons (Learn & See All) */
-.learn-btn, .see-btn {
+/* Learn Button */
+.learn-btn {
   padding: 10px 25px;
   border-radius: 30px;
-  border: 2px solid #0B2A4A; /* Primary Color */
+  border: 2px solid #0B2A4A;
   background: transparent;
-  color: #0B2A4A; /* Primary Color */
+  color: #0B2A4A;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
-.learn-btn:hover, .see-btn:hover {
-  background: #0B2A4A; /* Primary Color Background */
-  color: #ffffff; /* White text for contrast */
+/* 👇 Requested Hover */
+.learn-btn:hover {
+  background: #0B2A4A;
+  color: #8A96A3;
 }
 
 /* Bottom Link */
 .bottom-link {
   margin-top: 40px;
-  color: #0B2A4A; /* Primary Color */
+  color: #0B2A4A;
   font-weight: bold;
+}
+
+.see-btn {
+  margin-top: 10px;
+  padding: 12px 28px;
+  border-radius: 30px;
+  border: 2px solid #0B2A4A;
+  background: transparent;
+  color: #0B2A4A;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.see-btn:hover {
+  background: #0B2A4A;
+  color: #8A96A3;
 }
