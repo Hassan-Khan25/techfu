@@ -6,8 +6,6 @@ import TestimonialsSection from "./TestimonialsSection";
 
 
 
-
-
 function App() {
   const [active, setActive] = useState("Home");
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -118,6 +116,7 @@ function App() {
       </section>
       <AboutSection />
       <ServicesSection />
+      <TestimonialsSection />
     </div>
   );
 }
