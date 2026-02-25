@@ -1,0 +1,161 @@
+/* Main Background is now White */
+.tecfu-main-bg {
+  background-color:#f5f7fa;;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Inner Card is now your Deep Blue */
+.tecfu-blue-card {
+  background-color: #0B2A4A;
+  width: 100%;
+  max-width:  1200px;
+  max-height: 85vh; /* Fits on screen without scroll */
+  display: flex;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 40px 80px rgba(11, 42, 74, 0.25);
+  transition: transform 0.5s ease;
+}
+
+.tecfu-blue-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Left Pane Styling */
+.tecfu-info-pane {
+  flex: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.premium-badge {
+  background: rgba(138, 150, 163, 0.2);
+  color: #8A96A3;
+  padding: 6px 15px;
+  border-radius: 50px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.tecfu-info-pane h1 {
+  font-size: 42px;
+  color: #ffffff;
+  margin-top: 20px;
+  line-height: 1.1;
+}
+
+.grey-text { color: #8A96A3; font-weight: 300; }
+
+.tecfu-info-pane p {
+  color: #8A96A3;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+/* Actionable Email Link (White Font) */
+.email-action-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.email-action-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.icon-circle {
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-meta small { color: #8A96A3; display: block; font-size: 12px; }
+.email-meta p { color: #ffffff; font-weight: 600; margin: 0; }
+
+/* Right Pane: Form with White Font */
+.tecfu-form-pane {
+  flex: 1.2;
+  padding: 60px;
+}
+
+.input-row { display: flex; gap: 20px; }
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.field label {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Dark themed inputs */
+.field input, .field textarea {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px;
+  border-radius: 12px;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.field input:focus, .field textarea:focus {
+  outline: none;
+  border-color: #8A96A3;
+  background: rgba(255, 255, 255, 0.08);
+  transform: scale(1.01);
+}
+
+/* THE BUTTON: White for maximum action contrast */
+.tecfu-white-btn {
+  background-color: #ffffff;
+  color: #0B2A4A;
+  border: none;
+  width: 100%;
+  padding: 18px;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.tecfu-white-btn:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.02);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile Responsive */
+@media (max-width: 850px) {
+  .tecfu-blue-card { flex-direction: column; max-height: 95vh; overflow-y: auto; }
+  .tecfu-info-pane, .tecfu-form-pane { padding: 30px; }
+}

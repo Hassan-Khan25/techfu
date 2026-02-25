@@ -3,6 +3,9 @@ import "./App.css";
 import AboutSection from "./AboutSection";   // 👈 YEH ADD KARO
 import ServicesSection from "./ServicesSection";
 import TestimonialsSection from "./TestimonialsSection";
+import Contact from './Contact';
+import Footer from './Footer';
+
 
 
 
@@ -96,6 +99,9 @@ function App() {
       <AboutSection />
       <ServicesSection />
       <TestimonialsSection />
+      <Contact />
+      <Footer/>
+    
     </div>
   );
 }
