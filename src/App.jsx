@@ -51,28 +51,7 @@ function App() {
             className={`nav-item ${active === "Clients" ? "active" : ""}`}
             onClick={() => setActive("Clients")}
           >
-          <b> Clients</b>
-          </li>
-
-          <li
-            className={`nav-item ${active === "Team" ? "active" : ""}`}
-            onClick={() => setActive("Team")}
-          >
-           <b> Team </b>
-          </li>
-
-           <li
-            className={`nav-item ${active === "Blog" ? "active" : ""}`}
-            onClick={() => setActive("Blog")}
-          >
-          <b> Blog </b>
-          </li>
-
-           <li
-            className={`nav-item ${active === "Gallery" ? "active" : ""}`}
-            onClick={() => setActive("Gallery")}
-          >
-           <b> Gallery</b>
+          <b> Testimonials</b>
           </li>
 
           <li
