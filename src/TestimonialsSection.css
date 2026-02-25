@@ -42,8 +42,8 @@
 
 /* Card */
 .testimonial-card {
-  background: #fff;
-  border: 1px solid #0B2A4A;
+  background: #0B2A4A;
+  border: 1px solid #8A96A3;
   border-radius: 12px;
   padding: 25px;
   text-align: left;
@@ -52,7 +52,7 @@
 
 .testimonial-card:hover {
   transform: translateY(-6px);
-  border-color: #8A96A3;
+  border-color: #fff;
   box-shadow: 0 10px 25px rgba(11, 42, 74, 0.4);
 }
 
@@ -61,14 +61,15 @@
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 20px;
-  color: black;
+  color: #fff;
 }
 
 /* User */
 .testimonial-user {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
+  color: #fff;
 }
 
 .testimonial-user img {
@@ -84,5 +85,5 @@
 
 .testimonial-user span {
   font-size: 14px;
-  color: #0B2A4A;
+  color: #fff;
 }
