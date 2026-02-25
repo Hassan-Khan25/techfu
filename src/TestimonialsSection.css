@@ -21,7 +21,7 @@
 
 .testimonial-title span {
   color: #0B2A4A;
-  background: linear-gradient(90deg, #0B2A4A, #8A96A3);
+  background: linear-gradient(90deg, #0B2A4A);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
