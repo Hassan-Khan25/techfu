@@ -48,6 +48,10 @@ body {
   background: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ================= NAVBAR ================= */
 .navbar {
   display: flex;
@@ -236,4 +240,9 @@ body {
 .quote-form input:valid ~ textarea:valid ~ .submit-btn {
   background-color: #0B2A4A;
   cursor: pointer;
+}
+
+.navbar a {
+  text-decoration: none;   /* underline remove */
+  color: inherit;          /* parent ka same color use kare */
 }

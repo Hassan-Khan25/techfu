@@ -43,7 +43,8 @@ const TestimonialsSection = [
 function Testimonials() {
   return (
     <section 
-    className="testimonial-section">
+  id="testimonials"
+  className="testimonial-section">
       <div className="container">
         
         <h2 className="testimonial-title">

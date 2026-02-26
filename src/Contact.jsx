@@ -14,7 +14,9 @@ const Contact = () => {
   };
 
   return (
-    <section className="tecfu-main-bg">
+    <section 
+  id="contact"
+  className="tecfu-main-bg">
       <div className="tecfu-blue-card">
         
         {/* Left Side: Info */}
@@ -31,7 +33,7 @@ const Contact = () => {
             </div>
             <div className="email-meta">
               <small>Email us at</small>
-              <p>hello@tecfu.com</p>
+              <p>techfu39@gmail.com</p>
             </div>
           </a>
         </div>

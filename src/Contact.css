@@ -1,11 +1,11 @@
 /* Main Background is now White */
 .tecfu-main-bg {
-  background-color:#f5f7fa;;
+  background-color:#fff
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
+  padding: 80px 20px;
   overflow: hidden;
   font-family: 'Inter', sans-serif;
 }

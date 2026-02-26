@@ -54,14 +54,14 @@ function App() {
             className={`nav-item ${active === "Clients" ? "active" : ""}`}
             onClick={() => setActive("Clients")}
           >
-          <b> Testimonials</b>
+         <a href="#testimonials">Testimonials</a>
           </li>
 
           <li
             className={`nav-item ${active === "Contact" ? "active" : ""}`}
             onClick={() => setActive("Contact")}
           >
-          <b>  Contact Us</b>
+         <a href="#contact" className="nav-link">Contact</a>
           </li>
         </ul>
       </nav>
